@@ -1,0 +1,7 @@
+Stop Codon	Frequency
+TGA	654
+TAG	1270
+TAA	2478
+
+Suggestion For Genetic Code:	Universal (table = 1)
+

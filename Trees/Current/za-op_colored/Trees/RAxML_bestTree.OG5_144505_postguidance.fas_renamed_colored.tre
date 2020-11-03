@@ -1,0 +1,127 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=33;
+	taxlabels
+	Ba_pg_Klsp_XX_004213921_Contig_2092_Len948_OG5_144505[&!color=#ff6288]
+	Ba_pb_Daci_XX_043782431_Contig_1860_Len1113_OG5_144505[&!color=#ff6288]
+	Ba_pa_Xaut_XX_012114780_Contig_1648_Len1074_OG5_144505[&!color=#ff6288]
+	Ba_pb_Vpar_XX_015866517_Contig_2133_Len1035_OG5_144505[&!color=#ff6288]
+	Op_fu_Mmel_XX_007414809_Contig_9247_Len792_OG5_144505[&!color=#12aaff]
+	Op_fu_Pgra_331219643[&!color=#12aaff]
+	Op_fu_Scom_XX_019025200_Contig_4880_Len711_OG5_144505[&!color=#12aaff]
+	Op_fu_spom_NP595895_OG5_144505[&!color=#12aaff]
+	Op_fu_Umey_71003021[&!color=#12aaff]
+	Op_fu_Umey_71005826[&!color=#12aaff]
+	Op_fu_gzea_FGST04266_OG5_144505[&!color=#12aaff]
+	Op_fu_cpos_CPAG04230_OG5_144505[&!color=#12aaff]
+	Op_fu_cimm_CIMG06851T0_OG5_144505[&!color=#12aaff]
+	Op_fu_Trub_XX_003231503_Contig_3644_Len1311_OG5_144505[&!color=#12aaff]
+	Op_fu_afum_Afu3g03400_OG5_144505[&!color=#12aaff]
+	Op_fu_anid_AN6234_OG5_144505[&!color=#12aaff]
+	Op_fu_aory_AO090103000169_OG5_144505[&!color=#12aaff]
+	Op_fu_anid_AN0608_OG5_144505[&!color=#12aaff]
+	Op_fu_gzea_FGST03598_OG5_144505[&!color=#12aaff]
+	Op_fu_ncra_NCU06062T0_OG5_144505[&!color=#12aaff]
+	Ba_cy_Tvar_XX_010994569_Contig_3910_Len582_OG5_144505[&!color=#ff6288]
+	Za_eh_halo_NP395740_OG5_144505[&!color=#ab2121]
+	Za_eh_Hjeo_XX_008413926_Contig_2118_Len630_OG5_144505[&!color=#ab2121]
+	Za_eh_Hsai_XX_005042791_Contig_2231_Len657_OG5_144505[&!color=#ab2121]
+	Za_eh_Hmuk_XX_012807500_Contig_1951_Len630_OG5_144505[&!color=#ab2121]
+	Za_eh_Hpau_XX_007981934_Contig_2639_Len594_OG5_144505[&!color=#ab2121]
+	Za_eh_Hvol_XX_004041111_Contig_2330_Len642_OG5_144505[&!color=#ab2121]
+	Ba_fb_Pmuc_XX_014372314_Contig_4840_Len612_OG5_144505[&!color=#ff6288]
+	Ba_cy_Gspb_XX_015171850_Contig_2597_Len588_OG5_144505[&!color=#ff6288]
+	Ba_cy_Capo_XX_015219137_Contig_2154_Len612_OG5_144505[&!color=#ff6288]
+	Ba_pg_Kkor_XX_049756761_Contig_1621_Len645_OG5_144505[&!color=#ff6288]
+	Ba_pa_Mlot_XX_101938073_Contig_1840_Len1074_OG5_144505[&!color=#ff6288]
+	Ba_pg_sfle_NP709455_OG5_144505[&!color=#ff6288]
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R]
+(Ba_pg_Klsp_XX_004213921_Contig_2092_Len948_OG5_144505:0.00000100000050002909,(((Ba_pb_Daci_XX_043782431_Contig_1860_Len1113_OG5_144505:0.50934415260769805300,(Ba_pa_Xaut_XX_012114780_Contig_1648_Len1074_OG5_144505:0.62517557875644524934,Ba_pb_Vpar_XX_015866517_Contig_2133_Len1035_OG5_144505:0.56870006872244394103):0.27555635247969778590):0.28917697928828500764,((Op_fu_Mmel_XX_007414809_Contig_9247_Len792_OG5_144505:0.38011549520826470872,Op_fu_Pgra_331219643:0.47435488243242707185):1.47568251000636929682,((Op_fu_Scom_XX_019025200_Contig_4880_Len711_OG5_144505:0.93212593907021634720,Op_fu_spom_NP595895_OG5_144505:0.86662091737904067834):0.49288571431827671310,((Op_fu_Umey_71003021:1.74928200508765874233,Op_fu_Umey_71005826:1.37455408517836996651):0.40382960173400150872,(Op_fu_gzea_FGST04266_OG5_144505:0.64183735037927935885,((((Op_fu_cpos_CPAG04230_OG5_144505:0.00000100000050002909,Op_fu_cimm_CIMG06851T0_OG5_144505:0.00512461034431256363):0.29498000895559239876,Op_fu_Trub_XX_003231503_Contig_3644_Len1311_OG5_144505:0.31699901076691811008):0.14061491009596072121,((Op_fu_afum_Afu3g03400_OG5_144505:0.10590571716032108618,(Op_fu_anid_AN6234_OG5_144505:0.14435754088068233902,Op_fu_aory_AO090103000169_OG5_144505:0.11263746563861865013):0.02088084094928229634):0.54174649711223721305,Op_fu_anid_AN0608_OG5_144505:0.46211694054181484681):0.09330796299215725342):0.17825682339458001624,(Op_fu_gzea_FGST03598_OG5_144505:0.49939146340540319091,Op_fu_ncra_NCU06062T0_OG5_144505:0.31221032679121590858):0.22394984913977092345):0.16785643320103149634):0.39969645825945848694):0.24149555088009624915):0.12651515782245320585):0.23255837711313384619):0.21547998977924856523,((Ba_cy_Tvar_XX_010994569_Contig_3910_Len582_OG5_144505:0.31578424943951394210,(((((Za_eh_halo_NP395740_OG5_144505:0.87586360518465455893,((Za_eh_Hjeo_XX_008413926_Contig_2118_Len630_OG5_144505:0.28276758488680209247,Za_eh_Hsai_XX_005042791_Contig_2231_Len657_OG5_144505:0.19445823269131767841):0.15493514094536009473,(Za_eh_Hmuk_XX_012807500_Contig_1951_Len630_OG5_144505:0.80539742442620276819,Za_eh_Hpau_XX_007981934_Contig_2639_Len594_OG5_144505:0.41262841804259980938):0.12249934047525282144):0.11659340109008851927):0.09760785677757401191,Za_eh_Hvol_XX_004041111_Contig_2330_Len642_OG5_144505:0.63399407384926720344):0.75540888128312355665,Ba_fb_Pmuc_XX_014372314_Contig_4840_Len612_OG5_144505:0.62334114919670302601):0.13047744053238702344,Ba_cy_Gspb_XX_015171850_Contig_2597_Len588_OG5_144505:0.26529688334962520102):0.15923974786583858232,Ba_cy_Capo_XX_015219137_Contig_2154_Len612_OG5_144505:0.40726324073474406973):0.17652061629117268837):1.73258074907140624532,(Ba_pg_Kkor_XX_049756761_Contig_1621_Len645_OG5_144505:1.52111402034718867782,Ba_pa_Mlot_XX_101938073_Contig_1840_Len1074_OG5_144505:0.88135229408155035813):0.12836745721415718235):0.18526186307079622884):1.14518612570552535956,Ba_pg_sfle_NP709455_OG5_144505:0.06058412510126077316):0.0;
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShape.colourAttribute="User selection";
+	set nodeShape.isShown=false;
+	set nodeShape.minSize=10.0;
+	set nodeShape.scaleType=Width;
+	set nodeShape.shapeType=Circle;
+	set nodeShape.size=4.0;
+	set nodeShape.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;

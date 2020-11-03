@@ -1,0 +1,7 @@
+Stop Codon	Frequency
+TGA	466
+TAG	705
+TAA	2746
+
+Suggestion For Genetic Code:	Universal (table = 1)
+

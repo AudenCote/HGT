@@ -1,0 +1,126 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=32;
+	taxlabels
+	Ex_pa_Tfoe_XX_OHS95545_Contig_12948_Len1149_OG5_172358[&!color=#ffa100]
+	Za_cr_Pisl_XX_011763058_Contig_414_Len1128_OG5_172358[&!color=#ff6288]
+	Za_cr_Tten_XX_014126603_Contig_399_Len1164_OG5_172358[&!color=#ff6288]
+	Za_cr_Vdis_XX_013336967_Contig_554_Len1182_OG5_172358[&!color=#ff6288]
+	Za_cr_Vmou_XX_013603684_Contig_543_Len1182_OG5_172358[&!color=#ff6288]
+	Za_cr_cmaq_YP001540105_OG5_172358[&!color=#ff6288]
+	Za_cr_Tpen_XX_011753314_Contig_385_Len1242_OG5_172358[&!color=#ff6288]
+	Za_cr_smar_YP001041567_OG5_172358[&!color=#ff6288]
+	Za_cr_Pfum_XX_048192086_Contig_325_Len1251_OG5_172358[&!color=#ff6288]
+	Za_cr_Tuzo_XX_013680078_Contig_429_Len1173_OG5_172358[&!color=#ff6288]
+	Za_cr_Tten_XX_014126041_Contig_390_Len1173_OG5_172358[&!color=#ff6288]
+	Za_cr_ihos_YP001435366_OG5_172358[&!color=#ff6288]
+	Za_cr_Tpen_XX_011753219_Contig_300_Len1356_OG5_172358[&!color=#ff6288]
+	Za_cr_Tcel_XX_014737519_Contig_298_Len1221_OG5_172358[&!color=#ff6288]
+	Za_cr_hbut_YP001013566_OG5_172358[&!color=#ff6288]
+	Za_cr_Aper_XX_131160181_Contig_258_Len1290_OG5_172358[&!color=#ff6288]
+	Sr_rh_Rfil_XX_ETO06662_Contig_5615_Len1506_OG5_172358[&!color=#7b25aa]
+	Sr_rh_Mfpl_XX_LKH281-282_2930_Len693_Cov27_OG5_172358[&!color=#7b25aa]
+	Sr_rh_Repl_XX_LKH290-291_21574_Len492_Cov5_OG5_172358[&!color=#7b25aa]
+	Za_et_Tkod_XX_011250375_Contig_430_Len1209_OG5_172358[&!color=#ff6288]
+	Za_et_Tsib_XX_048160177_Contig_393_Len1197_OG5_172358[&!color=#ff6288]
+	Ex_he_Ngru_XX_002674756_Contig_4514_Len1680_OG5_172358[&!color=#ffa100]
+	Ba_ba_Bfra_XX_098870_Contig_1382_Len1236_OG5_172358[&!color=#000000]
+	Ba_ba_Bcae_XX_065539017_Contig_1251_Len1236_OG5_172358[&!color=#000000]
+	Za_as_Thob_XX_KXH72203_Contig_767_Len1200_OG5_172358[&!color=#ff6288]
+	Za_as_Thor_XX_OLS30123_Contig_631_Len1200_OG5_172358[&!color=#ff6288]
+	Ba_fc_Hhyd_XX_013405319_Contig_632_Len1224_OG5_172358[&!color=#000000]
+	Ba_ch_Psub_XX_116225538_Contig_824_Len1212_OG5_172358[&!color=#000000]
+	Ba_ba_Prum_XX_013064339_Contig_1115_Len1152_OG5_172358[&!color=#000000]
+	Ba_di_Dtur_XX_002352260_Contig_567_Len1116_OG5_172358[&!color=#000000]
+	Ba_di_Dthe_XX_012548216_Contig_597_Len1116_OG5_172358[&!color=#000000]
+	Ex_pa_tvag_TVAG225930_OG5_172358[&!color=#ffa100]
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R]
+(Ex_pa_Tfoe_XX_OHS95545_Contig_12948_Len1149_OG5_172358:0.45915527694517410673,(((((((Za_cr_Pisl_XX_011763058_Contig_414_Len1128_OG5_172358:0.87561994592474556853,Za_cr_Tten_XX_014126603_Contig_399_Len1164_OG5_172358:0.64115283389628086042):0.33335827841799686722,(((Za_cr_Vdis_XX_013336967_Contig_554_Len1182_OG5_172358:0.06079168652881388607,Za_cr_Vmou_XX_013603684_Contig_543_Len1182_OG5_172358:0.05976841387525659577):0.41802758651208254959,Za_cr_cmaq_YP001540105_OG5_172358:0.54348941092204228198):0.37097344919259311880,Za_cr_Tpen_XX_011753314_Contig_385_Len1242_OG5_172358:0.67630430382246764509):0.08163031284635167972):0.29147512715469781064,(Za_cr_smar_YP001041567_OG5_172358:1.06280148870514823400,Za_cr_Pfum_XX_048192086_Contig_325_Len1251_OG5_172358:0.72909388374081385287):0.31561607464662955191):0.27135383487434228122,((Za_cr_Tuzo_XX_013680078_Contig_429_Len1173_OG5_172358:0.13915196140198474173,Za_cr_Tten_XX_014126041_Contig_390_Len1173_OG5_172358:0.22685653680658809939):1.34024008808781225355,Za_cr_ihos_YP001435366_OG5_172358:1.37776763566487603363):0.12906856359450721849):0.07818365626611310792,(Za_cr_Tpen_XX_011753219_Contig_300_Len1356_OG5_172358:2.17185173990471991345,(Za_cr_Tcel_XX_014737519_Contig_298_Len1221_OG5_172358:0.84489125594877834136,(Za_cr_hbut_YP001013566_OG5_172358:0.37424428992021024909,Za_cr_Aper_XX_131160181_Contig_258_Len1290_OG5_172358:0.93132483786482889165):0.35623979123250432144):0.05098251309162305650):0.30339290378590227926):0.21020736471227269293,((Sr_rh_Rfil_XX_ETO06662_Contig_5615_Len1506_OG5_172358:0.37755172425464544883,(Sr_rh_Mfpl_XX_LKH281-282_2930_Len693_Cov27_OG5_172358:0.43446014625728374137,Sr_rh_Repl_XX_LKH290-291_21574_Len492_Cov5_OG5_172358:0.32472281531398938803):0.45278585015034850114):0.41706981947649829356,((Za_et_Tkod_XX_011250375_Contig_430_Len1209_OG5_172358:0.24875565642781957698,Za_et_Tsib_XX_048160177_Contig_393_Len1197_OG5_172358:0.21388881562384629009):0.24773968312960387150,Ex_he_Ngru_XX_002674756_Contig_4514_Len1680_OG5_172358:0.74712434179352515962):0.13321135845442894086):0.70792353510263128502):0.13737666048927202334,((((Ba_ba_Bfra_XX_098870_Contig_1382_Len1236_OG5_172358:0.06739485121759543340,Ba_ba_Bcae_XX_065539017_Contig_1251_Len1236_OG5_172358:0.13635639355858059085):0.74458877212940699497,((Za_as_Thob_XX_KXH72203_Contig_767_Len1200_OG5_172358:0.14937866275210412437,Za_as_Thor_XX_OLS30123_Contig_631_Len1200_OG5_172358:0.11327006130332897826):0.86471524872035765430,Ba_fc_Hhyd_XX_013405319_Contig_632_Len1224_OG5_172358:0.55048255779993815473):0.13604933495944795951):0.11123019654990334848,(Ba_ch_Psub_XX_116225538_Contig_824_Len1212_OG5_172358:0.63446967735690928958,Ba_ba_Prum_XX_013064339_Contig_1115_Len1152_OG5_172358:0.56234678380269709219):0.34078288944275214600):0.08172585776126027601,(Ba_di_Dtur_XX_002352260_Contig_567_Len1116_OG5_172358:0.05391214913347350257,Ba_di_Dthe_XX_012548216_Contig_597_Len1116_OG5_172358:0.04852586602585823305):1.02688608733285358099):0.19564178218083125294):1.47455565761647444667,Ex_pa_tvag_TVAG225930_OG5_172358:0.36672375710282073547):0.0;
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShape.colourAttribute="User selection";
+	set nodeShape.isShown=false;
+	set nodeShape.minSize=10.0;
+	set nodeShape.scaleType=Width;
+	set nodeShape.shapeType=Circle;
+	set nodeShape.size=4.0;
+	set nodeShape.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;

@@ -1,0 +1,7 @@
+Stop Codon	Frequency
+TGA	289
+TAG	635
+TAA	2011
+
+Suggestion For Genetic Code:	Universal (table = 1)
+

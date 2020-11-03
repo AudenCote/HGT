@@ -1,0 +1,128 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=34;
+	taxlabels
+	EE_cr_Gpac_XX_Contig_20893_Len336_Cov9_OG5_153406[&!color=#ab2121]
+	Pl_gr_micr_ACO70154_OG5_153406[&!color=#006300]
+	Pl_gr_Mpus_303289285[&!color=#006300]
+	Pl_gr_Mspa_XX_Contig_4538_Len735_Cov14_OG5_153406[&!color=#006300]
+	Pl_gr_Mant_XX_Contig_6651_Len735_Cov38_OG5_153406[&!color=#006300]
+	Pl_gr_Bpra_XX_007510594_Contig_4450_Len1125_OG5_153406[&!color=#006300]
+	Pl_gr_Omed_XX_Contig_5888_Len729_Cov106_OG5_153406[&!color=#006300]
+	Pl_gr_Oluc_XX_001421815_Contig_3565_Len1011_OG5_153406[&!color=#006300]
+	Pl_gr_otau_1700010021_OG5_153406[&!color=#006300]
+	Pl_gr_Pspg_XX_Contig_6583_Len930_Cov7_OG5_153406[&!color=#006300]
+	Pl_gr_Pobo_XX_Contig_6660_Len1089_Cov18_OG5_153406[&!color=#006300]
+	Pl_gr_ppat_gw1.184.87.1_OG5_153406[&!color=#006300]
+	Pl_gr_Mpol_XX_PTQ40693_Contig_10713_Len1155_OG5_153406[&!color=#006300]
+	Pl_gr_Mpol_XX_PTQ40694_Contig_10740_Len1152_OG5_153406[&!color=#006300]
+	Pl_gr_Cjap_XX_FY766557_Contig_2266_Len678_OG5_153406[&!color=#006300]
+	Pl_gr_osat_NP001043835_OG5_153406[&!color=#006300]
+	Pl_gr_Atri_XX_011626259_Contig_17567_Len1092_OG5_153406[&!color=#006300]
+	Pl_gr_atha_NP565711_OG5_153406[&!color=#006300]
+	Pl_gr_Hann_XX_022025724_Contig_39047_Len990_OG5_153406[&!color=#006300]
+	Pl_gr_Egui_XX_OTF87087_Contig_22059_Len990_OG5_153406[&!color=#006300]
+	Pl_gr_rcom_29682.m000591_OG5_153406[&!color=#006300]
+	Sr_rh_Spsu_XX_Contig_25034_Len1020_Cov11_OG5_153406[&!color=#7b25aa]
+	Pl_gr_Ntab_XX_016507451_Contig_41351_Len1047_OG5_153406[&!color=#006300]
+	Pl_gr_Ntab_XX_016464349_Contig_42295_Len1029_OG5_153406[&!color=#006300]
+	Sr_rh_Spsu_XX_Contig_19827_Len1017_Cov16_OG5_153406[&!color=#7b25aa]
+	Pl_gr_Ntab_XX_016513440_Contig_41502_Len1044_OG5_153406[&!color=#006300]
+	Pl_gr_Corb_XX_Contig_7345_Len981_Cov104_OG5_153406[&!color=#006300]
+	Pl_gr_Knit_XX_GAQ83594_Contig_9729_Len1059_OG5_153406[&!color=#006300]
+	Pl_gr_vcar_XP002948526_OG5_153406[&!color=#006300]
+	Pl_gr_crei_146879_OG5_153406[&!color=#006300]
+	Pl_gr_Cvar_552815397[&!color=#006300]
+	Ba_cy_Sysp_XX_094512818_Contig_2375_Len336_OG5_153406[&!color=#000000]
+	Sr_rh_Pmic_XX_002048859_Contig_665_Len471_OG5_153406[&!color=#7b25aa]
+	Ba_cy_syne_NP896583_OG5_153406[&!color=#000000]
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R]
+(EE_cr_Gpac_XX_Contig_20893_Len336_Cov9_OG5_153406:0.19374657426287344997,(((((((Pl_gr_micr_ACO70154_OG5_153406:0.13917373047059145019,(Pl_gr_Mpus_303289285:0.17254931153500405183,(Pl_gr_Mspa_XX_Contig_4538_Len735_Cov14_OG5_153406:0.00000100000050002909,Pl_gr_Mant_XX_Contig_6651_Len735_Cov38_OG5_153406:0.00000100000050002909):0.17690255792514666955):0.11949470986774864134):0.34354083060757500956,(Pl_gr_Bpra_XX_007510594_Contig_4450_Len1125_OG5_153406:0.70464227869972495544,(Pl_gr_Omed_XX_Contig_5888_Len729_Cov106_OG5_153406:0.04031560237884819486,(Pl_gr_Oluc_XX_001421815_Contig_3565_Len1011_OG5_153406:0.08432917946112337970,Pl_gr_otau_1700010021_OG5_153406:0.11553692154912768852):0.09541223231265476279):0.23432919332425602987):0.14285629029411411883):0.97084930384105350143,(Pl_gr_Pspg_XX_Contig_6583_Len930_Cov7_OG5_153406:0.81184218114780837272,Pl_gr_Pobo_XX_Contig_6660_Len1089_Cov18_OG5_153406:0.80227151346512570740):0.27281937102203340784):0.31863833977734296043,((((Pl_gr_ppat_gw1.184.87.1_OG5_153406:0.37182579007721022757,(Pl_gr_Mpol_XX_PTQ40693_Contig_10713_Len1155_OG5_153406:0.00000100000050002909,Pl_gr_Mpol_XX_PTQ40694_Contig_10740_Len1152_OG5_153406:0.00000100000050002909):0.28541684817578555355):0.19258718164767008041,(Pl_gr_Cjap_XX_FY766557_Contig_2266_Len678_OG5_153406:0.44461823460478377967,(Pl_gr_osat_NP001043835_OG5_153406:0.54533561661763818584,(Pl_gr_Atri_XX_011626259_Contig_17567_Len1092_OG5_153406:0.30470886330065732883,((Pl_gr_atha_NP565711_OG5_153406:0.20347275894159838616,(Pl_gr_Hann_XX_022025724_Contig_39047_Len990_OG5_153406:0.00000100000050002909,Pl_gr_Egui_XX_OTF87087_Contig_22059_Len990_OG5_153406:0.00000100000050002909):0.15436142453125542562):0.07417877957502956587,(Pl_gr_rcom_29682.m000591_OG5_153406:0.16552208981326541060,((Sr_rh_Spsu_XX_Contig_25034_Len1020_Cov11_OG5_153406:0.07759409619318670404,(Pl_gr_Ntab_XX_016507451_Contig_41351_Len1047_OG5_153406:0.02981775086042290704,Pl_gr_Ntab_XX_016464349_Contig_42295_Len1029_OG5_153406:0.03536737507699019151):0.06340326413404789863):0.10263895852540963483,(Sr_rh_Spsu_XX_Contig_19827_Len1017_Cov16_OG5_153406:0.08065467855129805630,Pl_gr_Ntab_XX_016513440_Contig_41502_Len1044_OG5_153406:0.06223947877370035464):0.08177372425245690857):0.09140133663260338603):0.03152244372878553608):0.10270714357773465253):0.11715115037713957902):0.20620951886126051567):0.16533952180678934685):0.20638835510957498354,Pl_gr_Corb_XX_Contig_7345_Len981_Cov104_OG5_153406:0.51029107295092845931):0.21203845657387238033,Pl_gr_Knit_XX_GAQ83594_Contig_9729_Len1059_OG5_153406:0.81627091840701437864):0.13392353894522138202):0.21395464573061126479,((Pl_gr_vcar_XP002948526_OG5_153406:0.19583316837672881672,Pl_gr_crei_146879_OG5_153406:0.19081616654407351774):0.54626444186448164242,Pl_gr_Cvar_552815397:0.87582387180587162323):0.23275432566753898045):1.61339927416685124939,Ba_cy_Sysp_XX_094512818_Contig_2375_Len336_OG5_153406:0.09980282242311075414):0.56377759351247869191,Sr_rh_Pmic_XX_002048859_Contig_665_Len471_OG5_153406:0.46924840750339341655):0.22268596835274256929,Ba_cy_syne_NP896583_OG5_153406:0.62081115350417148679):0.0;
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShape.colourAttribute="User selection";
+	set nodeShape.isShown=false;
+	set nodeShape.minSize=10.0;
+	set nodeShape.scaleType=Width;
+	set nodeShape.shapeType=Circle;
+	set nodeShape.size=4.0;
+	set nodeShape.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;

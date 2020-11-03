@@ -1,0 +1,7 @@
+Stop Codon	Frequency
+TGA	1667
+TAG	2195
+TAA	3301
+
+Suggestion For Genetic Code:	Universal (table = 1)
+

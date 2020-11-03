@@ -1,0 +1,7 @@
+Stop Codon	Frequency
+TGA	822
+TAG	2022
+TAA	945
+
+Suggestion For Genetic Code:	Universal (table = 1)
+

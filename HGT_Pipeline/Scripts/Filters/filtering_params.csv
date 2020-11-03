@@ -1,0 +1,19 @@
+﻿SELECT FOR,--,--,--,--,--,--,--,--,--,--,--,--
+Major clades,ba,,,,,,,,,,,
+Major clades threshold(s),0.1,,,,,,,,,,,
+Minor clades,,,,,,,,,,,,
+Minor clades threshold(s),,,,,,,,,,,,
+Species,Am_ar_ehis,Am_ar_edis,Am_ar_einv,,,,,,,,,
+SELECT AGAINST,--,--,--,--,--,--,--,--,--,--,--,--
+Major clades,za,ee,ex,pl,op,sr,,,,,,
+Major clades threshold(s),0.2,,,,,,,,,,,
+Minor clades,,,,,,,,,,,,
+Minor clades threshold(s),,,,,,,,,,,,
+Species,,,,,,,,,,,,
+All-other minor clades:,,,,,,,,,,,,
+Thresholds: INTER,,,,,,,,,,,,
+Thresholds: INTRA,,,,,,,,,,,,
+TRANSCRIPTOMES COVERAGE THRESHOLD,,,,,,,,,,,,
+DATA SOURCE,--,--,--,--,--,--,--,--,--,--,--,--
+Transcriptomic?,Yes,,,,,,,,,,,
+Genomic?,Yes,,,,,,,,,,,
